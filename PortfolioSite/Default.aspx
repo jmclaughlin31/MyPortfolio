@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Home.aspx.cs"  Inherits="PortfolioSite.Home" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs"  Inherits="PortfolioSite.Home" %>
 
 <!DOCTYPE HTML>
 
