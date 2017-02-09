@@ -211,6 +211,7 @@
     <Content Include="bin\System.Web.Webpages.Razor.xml" />
     <Content Include="bin\System.Web.Webpages.xml" />
     <Content Include="Contact.aspx" />
+    <Content Include="scripts\powerbi.css" />
     <Content Include="CSharpAndDotNet.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Default.aspx" />
@@ -232,6 +233,28 @@
     <Content Include="Images\pic04.png" />
     <Content Include="Images\teradata.png" />
     <Content Include="Images\wordpress-logo-notext-rgb.png" />
+    <Content Include="lib\css\animate.min.css" />
+    <Content Include="lib\css\bootstrap-switch.min.css" />
+    <Content Include="lib\css\bootstrap.min.css" />
+    <Content Include="lib\css\checkbox3.min.css" />
+    <Content Include="lib\css\dataTables.bootstrap.css" />
+    <Content Include="lib\css\font-awesome.min.css" />
+    <Content Include="lib\css\jquery.dataTables.min.css" />
+    <Content Include="lib\css\select2.min.css" />
+    <Content Include="lib\fonts\fontawesome-webfont.svg" />
+    <Content Include="lib\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="scripts\js\ace\ace.js" />
+    <Content Include="scripts\js\ace\mode-html.js" />
+    <Content Include="scripts\js\ace\theme-github.js" />
+    <Content Include="scripts\js\bootstrap-switch.min.js" />
+    <Content Include="scripts\js\bootstrap.min.js" />
+    <Content Include="scripts\js\Chart.min.js" />
+    <Content Include="scripts\js\dataTables.bootstrap.min.js" />
+    <Content Include="scripts\js\es6-promise.auto.min.js" />
+    <Content Include="scripts\js\jquery.dataTables.min.js" />
+    <Content Include="scripts\js\jquery.matchHeight-min.js" />
+    <Content Include="scripts\js\jquery.min.js" />
+    <Content Include="scripts\js\select2.full.min.js" />
     <Content Include="PowerBI.aspx" />
     <Content Include="scripts\css\font-awesome.min.css" />
     <Content Include="scripts\css\ie8.css" />
@@ -345,6 +368,15 @@
     <Content Include="bin\roslyn\vbc.exe.config" />
     <Content Include="bin\roslyn\vbc.rsp" />
     <Content Include="bin\roslyn\VBCSCompiler.exe.config" />
+    <Content Include="lib\fonts\fontawesome-webfont.eot" />
+    <Content Include="lib\fonts\fontawesome-webfont.ttf" />
+    <Content Include="lib\fonts\fontawesome-webfont.woff" />
+    <Content Include="lib\fonts\fontawesome-webfont.woff2" />
+    <Content Include="lib\fonts\FontAwesome.otf" />
+    <Content Include="lib\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="lib\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="lib\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="lib\fonts\glyphicons-halflings-regular.woff2" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -356,7 +388,6 @@
     <Folder Include="App_Data\" />
     <Folder Include="App_Start\" />
     <Folder Include="Controllers\" />
-    <Folder Include="lib\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>

@@ -6,11 +6,11 @@
 		<title>Data Visualisations by Jody Mc Laughlin</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-        <link href="/Content/powerbi.css" rel="stylesheet" />
+		<!--[if lte IE 8]><script src="~/scripts/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="~/scripts/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="~/scripts/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="~/scripts/css/ie9.css" /><![endif]-->
+        <link href="~/scripts/powerbi.css" rel="stylesheet" />
    
     </head>
 	<body>
@@ -22,12 +22,12 @@
 
 					<!-- Logo -->
                    
-						<h1><a href="index.html" id="logo">Data Visualisations <em>by Jody Mc Laughlin</em></a></h1>
+						<h1><a href="Default.aspx" id="logo">Data Visualisations <em>by Jody Mc Laughlin</em></a></h1>
 
 					<!-- Nav -->
 						<nav id="nav" class="">
 							<ul>
-								<li><a href="Home.aspx">Home</a></li>
+								<li><a href="Default.aspx">Home</a></li>
 								<li class="current"><a href="PowerBI.aspx">PowerBI</a></li>
 								<li><a href="SSRS.aspx">SQL Server Reporting Services</a></li>
 								<li><a href="Azure.aspx">Azure</a></li>
@@ -167,30 +167,30 @@
 		</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+			<script src="~/scripts/js/jquery.min.js"></script>
+			<script src="~/scripts/js/jquery.dropotron.min.js"></script>
+			<script src="~/scripts/js/skel.min.js"></script>
+			<script src="~/scripts/js/util.js"></script>
+			<!--[if lte IE 8]><script src="~/scripts/js/ie/respond.min.js"></script><![endif]-->
+			<script src="~/scripts/js/main.js"></script>
             </form>
 
     <!-- Javascript Libs -->
-    <script type="text/javascript" src="/lib/js/jquery.min.js"></script>
-    <script type="text/javascript" src="/lib/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="/lib/js/Chart.min.js"></script>
-    <script type="text/javascript" src="/lib/js/bootstrap-switch.min.js"></script>
-    <script type="text/javascript" src="/lib/js/jquery.matchHeight-min.js"></script>
-    <script type="text/javascript" src="/lib/js/jquery.dataTables.min.js"></script>
-    <script type="text/javascript" src="/lib/js/dataTables.bootstrap.min.js"></script>
-    <script type="text/javascript" src="/lib/js/select2.full.min.js"></script>
-    <script type="text/javascript" src="/lib/js/es6-promise.auto.min.js"></script>
-    <script type="text/javascript" src="/lib/js/ace/ace.js"></script>
-    <script type="text/javascript" src="/lib/js/ace/mode-html.js"></script>
-    <script type="text/javascript" src="/lib/js/ace/theme-github.js"></script>
+    <script type="text/javascript" src="~/scripts/js/jquery.min.js"></script>
+    <script type="text/javascript" src="~/scripts/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="~/scripts/js/Chart.min.js"></script>
+    <script type="text/javascript" src="~/scripts/js/bootstrap-switch.min.js"></script>
+    <script type="text/javascript" src="~/scripts/js/jquery.matchHeight-min.js"></script>
+    <script type="text/javascript" src="~/scripts/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="~/scripts/js/dataTables.bootstrap.min.js"></script>
+    <script type="text/javascript" src="~/scripts/js/select2.full.min.js"></script>
+    <script type="text/javascript" src="~/scripts/js/es6-promise.auto.min.js"></script>
+    <script type="text/javascript" src="~/scripts/js/ace/ace.js"></script>
+    <script type="text/javascript" src="~/scripts/js/ace/mode-html.js"></script>
+    <script type="text/javascript" src="~/scripts/js/ace/theme-github.js"></script>
     <!-- Javascript -->
-    <script type="text/javascript" src="/js/app.js"></script>
-    <script src="/Scripts/powerbi.js"></script>
+    <script type="text/javascript" src="/js/app.jss"></script>
+    <script src="~/scripts/powerbi.js"></script>
 
     
         <script>
