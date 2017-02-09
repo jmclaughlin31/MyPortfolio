@@ -176,7 +176,6 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Azure.aspx.cs">
       <DependentUpon>Azure.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -250,6 +249,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="App_Start\" />
     <Folder Include="Controllers\" />
     <Folder Include="lib\" />
     <Folder Include="Models\" />
