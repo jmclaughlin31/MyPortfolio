@@ -167,30 +167,30 @@
 		</div>
 
 		<!-- Scripts -->
-			<script src="~/scripts/js/jquery.min.js"></script>
-			<script src="~/scripts/js/jquery.dropotron.min.js"></script>
-			<script src="~/scripts/js/skel.min.js"></script>
-			<script src="~/scripts/js/util.js"></script>
+			<script src="scripts/js/jquery.min.js"></script>
+			<script src="scripts/js/jquery.dropotron.min.js"></script>
+			<script src="scripts/js/skel.min.js"></script>
+			<script src="scripts/js/util.js"></script>
 			<!--[if lte IE 8]><script src="~/scripts/js/ie/respond.min.js"></script><![endif]-->
-			<script src="~/scripts/js/main.js"></script>
+			<script src="scripts/js/main.js"></script>
             </form>
 
     <!-- Javascript Libs -->
-    <script type="text/javascript" src="~/scripts/js/jquery.min.js"></script>
-    <script type="text/javascript" src="~/scripts/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="~/scripts/js/Chart.min.js"></script>
-    <script type="text/javascript" src="~/scripts/js/bootstrap-switch.min.js"></script>
-    <script type="text/javascript" src="~/scripts/js/jquery.matchHeight-min.js"></script>
-    <script type="text/javascript" src="~/scripts/js/jquery.dataTables.min.js"></script>
-    <script type="text/javascript" src="~/scripts/js/dataTables.bootstrap.min.js"></script>
-    <script type="text/javascript" src="~/scripts/js/select2.full.min.js"></script>
-    <script type="text/javascript" src="~/scripts/js/es6-promise.auto.min.js"></script>
-    <script type="text/javascript" src="~/scripts/js/ace/ace.js"></script>
-    <script type="text/javascript" src="~/scripts/js/ace/mode-html.js"></script>
-    <script type="text/javascript" src="~/scripts/js/ace/theme-github.js"></script>
+    <script type="text/javascript" src="scripts/js/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="scripts/js/Chart.min.js"></script>
+    <script type="text/javascript" src="scripts/js/bootstrap-switch.min.js"></script>
+    <script type="text/javascript" src="scripts/js/jquery.matchHeight-min.js"></script>
+    <script type="text/javascript" src="scripts/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="scripts/js/dataTables.bootstrap.min.js"></script>
+    <script type="text/javascript" src="scripts/js/select2.full.min.js"></script>
+    <script type="text/javascript" src="scripts/js/es6-promise.auto.min.js"></script>
+    <script type="text/javascript" src="scripts/js/ace/ace.js"></script>
+    <script type="text/javascript" src="scripts/js/ace/mode-html.js"></script>
+    <script type="text/javascript" src="scripts/js/ace/theme-github.js"></script>
     <!-- Javascript -->
     <script type="text/javascript" src="/js/app.jss"></script>
-    <script src="~/scripts/powerbi.js"></script>
+    <script src="scripts/powerbi.js"></script>
 
     
         <script>
