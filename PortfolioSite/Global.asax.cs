@@ -15,7 +15,7 @@ namespace PortfolioSite
         {
             // Code that runs on application startup
            AreaRegistration.RegisterAllAreas();
-           RouteConfig.RegisterRoutes(RouteTable.Routes);
+           
         }
     }
 }
