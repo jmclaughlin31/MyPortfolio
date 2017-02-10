@@ -189,7 +189,7 @@
     <script type="text/javascript" src="scripts/js/ace/mode-html.js"></script>
     <script type="text/javascript" src="scripts/js/ace/theme-github.js"></script>
     <!-- Javascript -->
-    <script type="text/javascript" src="/js/app.jss"></script>
+    <script type="text/javascript" src="/js/app.js"></script>
     <script src="scripts/powerbi.js"></script>
 
     

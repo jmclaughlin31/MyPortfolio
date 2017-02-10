@@ -211,6 +211,12 @@
     <Content Include="bin\System.Web.Webpages.Razor.xml" />
     <Content Include="bin\System.Web.Webpages.xml" />
     <Content Include="Contact.aspx" />
+    <Content Include="scripts\js\html5shiv.js" />
+    <Content Include="scripts\js\jquery.dropotron.min.js" />
+    <Content Include="scripts\js\main.js" />
+    <Content Include="scripts\js\respond.min.js" />
+    <Content Include="scripts\js\skel.min.js" />
+    <Content Include="scripts\js\util.js" />
     <Content Include="scripts\powerbi.css" />
     <Content Include="CSharpAndDotNet.aspx" />
     <Content Include="Global.asax" />
