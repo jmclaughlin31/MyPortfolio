@@ -14,7 +14,7 @@
    
     </head>
 	<body>
-        <form runat="server" >
+        
 		<div id="page-wrapper">
             
 			<!-- Header -->
@@ -40,7 +40,7 @@
 				</div>
 
 			<!-- Banner -->
-				
+			<form runat="server" >	
            
 			<!-- Highlights -->
             <section class="wrapper style2" style="padding-top:2em;">
@@ -163,7 +163,7 @@
 						</div>
 
 				</div>
-
+</form>
 		</div>
 
 		<!-- Scripts -->
@@ -173,7 +173,7 @@
 			<script src="scripts/js/util.js"></script>
 			<!--[if lte IE 8]><script src="~/scripts/js/ie/respond.min.js"></script><![endif]-->
 			<script src="scripts/js/main.js"></script>
-            </form>
+            
 
     <!-- Javascript Libs -->
     <script type="text/javascript" src="scripts/js/jquery.min.js"></script>
