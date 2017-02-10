@@ -24,7 +24,7 @@ namespace PortfolioSite
     
             var embedToken = PowerBIToken.CreateReportEmbedToken(this.workspaceCollection, this.workspaceId, reportId.ToString());
             accessToken = embedToken.Generate(this.AccessKey);
-            HiddenField1.Value = accessToken.ToString();
+           
         }
 
     }        

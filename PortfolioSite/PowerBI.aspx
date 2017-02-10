@@ -41,7 +41,7 @@
 
 			<!-- Banner -->
 				
-           <asp:HiddenField ID="HiddenField1" runat="server" />
+           
 			<!-- Highlights -->
             <section class="wrapper style2" style="padding-top:2em;">
                 <div class="container">
