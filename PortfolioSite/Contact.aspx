@@ -7,10 +7,10 @@
 		<title>Data Visualisations by Jody Mc Laughlin</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><script src="~/scripts/js/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="~/scripts/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="~/scripts/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="~/scripts/css/ie9.css" /><![endif]-->
 	</head>
 	<body>
         <form runat="server">
@@ -21,12 +21,12 @@
 
 					<!-- Logo -->
                    
-						<h1><a href="index.html" id="logo">Data Visualisations <em>by Jody Mc Laughlin</em></a></h1>
+						<h1><a href="Default.html" id="logo">Data Visualisations <em>by Jody Mc Laughlin</em></a></h1>
 
 					<!-- Nav -->
 						<nav id="nav">
 							<ul>
-								<li><a href="Home.aspx">Home</a></li>
+								<li><a href="Default.aspx">Home</a></li>
 								<li><a href="PowerBI.aspx">PowerBI</a></li>
 								<li><a href="SSRS.aspx">SQL Server Reporting Services</a></li>
 								<li><a href="Azure.aspx">Azure</a></li>
@@ -212,12 +212,12 @@
 		</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+			<script src="scripts/js/jquery.min.js"></script>
+			<script src="scripts/js/jquery.dropotron.min.js"></script>
+			<script src="scripts/js/skel.min.js"></script>
+			<script src="scripts/js/util.js"></script>
+			<!--[if lte IE 8]><script src="scripts/js/respond.min.js"></script><![endif]-->
+			<script src="scripts/js/main.js"></script>
         </form>
 	</body>
 </html>

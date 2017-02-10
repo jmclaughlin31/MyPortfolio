@@ -6,7 +6,7 @@
 		<title>Data Visualisations by Jody Mc Laughlin</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="~/scripts/js/ie/html5shiv.js"></script><![endif]-->
+		<!--[if lte IE 8]><script src="~/scripts/js/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="~/scripts/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="~/scripts/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="~/scripts/css/ie9.css" /><![endif]-->
@@ -171,7 +171,7 @@
 			<script src="scripts/js/jquery.dropotron.min.js"></script>
 			<script src="scripts/js/skel.min.js"></script>
 			<script src="scripts/js/util.js"></script>
-			<!--[if lte IE 8]><script src="~/scripts/js/ie/respond.min.js"></script><![endif]-->
+			<!--[if lte IE 8]><script src="~/scripts/js/respond.min.js"></script><![endif]-->
 			<script src="scripts/js/main.js"></script>
             
 
