@@ -49,7 +49,7 @@
                         <h2 style="text-align:center">Interact with Embedded PowerBI reports to get fasters Insights!</h2>
 
                     </header>
-                    <div id="pbi-report" powerbi-access-token="<%= HiddenField1.Value %>" powerbi-embed-url="https://embedded.powerbi.com/appTokenReportEmbed?reportId=2e52bb57-3aa6-4224-b069-aea9e8414e7a" powerbi-type="report" style="height:85vh"></div>
+                    <div id="pbi-report" powerbi-access-token="<%= accessToken.ToString() %>" powerbi-embed-url="https://embedded.powerbi.com/appTokenReportEmbed?reportId=2e52bb57-3aa6-4224-b069-aea9e8414e7a" powerbi-type="report" style="height:85vh"></div>
 
                 </div>
             </section>
