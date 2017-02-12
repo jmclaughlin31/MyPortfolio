@@ -40,32 +40,15 @@
 				
 
 			<!-- Highlights -->
-				<section class="wrapper style3">
-					<div class="container">
-						<div class="row 200%">
-							<section class="4u 12u(narrower)">
-								<div class="box highlight">
-									<i class="icon major fa-pie-chart"></i>
-									<h3>ETL & Migration Support</h3>
-									<p>Experience in migrating data from MySQL, DB2, Access, SQL Server, Oracle and Sysbase using SSIS (SQL Server Integration Services) and SSMA (SQL Server Migration Assistant).</p>
-								</div>
-							</section>
-							<section class="4u 12u(narrower)">
-								<div class="box highlight">
-									<i class="icon major fa-cloud"></i>
-									<h3>Migrate to the Cloud</h3>
-									<p>With my expertise in SAAS Deployments using Azure for App and SQL Server Deployments, I can build solutions to scale inline with your businesses requirements.</p>
-								</div>
-							</section>
-							<section class="4u 12u(narrower)">
-								<div class="box highlight">
-									<i class="icon major fa-github"></i>
-									<h3>The Master of Control</h3>
-									<p>Iterative developments and deployments streamlined! No more disruptions or unnecessary downtime.</p>
-								</div>
-							</section>
-						</div>
-					</div>
+					<section class="wrapper style1" style="background-color:#474747;">
+					<div class="container" >
+                    <header style="color:white;">
+                        <h3 style="text-align:left">Big Insights using Azure SQL Data Warehousing-as-a-Service</h3>
+                        <p style="text-align:left">Custom built processing end-to-end to meet your reporting requirements. From logical modelling to streamlining & merging new and existing streams of reporting.</p>
+                        <h3 style="text-align:right">ETL Migrations</h3>
+                        <p style="text-align:right">SSMA and SSIS for building an integrated data layer and managing rapid transfers of big data.</p>
+                    </header>
+                </div>
 				</section>
 
 			<!-- Gigantic Heading -->

@@ -40,32 +40,15 @@
 				
 
 			<!-- Highlights -->
-				<section class="wrapper style3">
-					<div class="container">
-						<div class="row 200%">
-							<section class="4u 12u(narrower)">
-								<div class="box highlight">
-									<i class="icon major fa-pie-chart"></i>
-									<h3>Reporting Specialist</h3>
-									<p>Looking to get the most out of your data? I can integrate the latest technologies to help your business exploit the value of its data.</p>
-								</div>
-							</section>
-							<section class="4u 12u(narrower)">
-								<div class="box highlight">
-									<i class="icon major fa-cloud"></i>
-									<h3>Migrate to the Cloud</h3>
-									<p>With my expertise in SAAS Deployments using Azure for App and SQL Server Deployments, I can build solutions to scale inline with your businesses requirements.</p>
-								</div>
-							</section>
-							<section class="4u 12u(narrower)">
-								<div class="box highlight">
-									<i class="icon major fa-github"></i>
-									<h3>The Master of Control</h3>
-									<p>Iterative developments and deployments streamlined! No more disruptions or unnecessary downtime.</p>
-								</div>
-							</section>
-						</div>
-					</div>
+				<section class="wrapper style1" style="background-color:#474747;">
+					<div class="container" >
+                    <header style="color:white;">
+                        <h3 style="text-align:left">Big Insights using Azure SQL Data Warehousing-as-a-Service</h3>
+                        <p style="text-align:left">Custom built processing end-to-end to meet your reporting requirements. From logical modelling to streamlining & merging new and existing streams of reporting.</p>
+                        <h3 style="text-align:right">Continuous deployment, minimal disruption.</h3>
+                        <p style="text-align:right">Integration of Azure with Bitbucket, GitHub, Visual Studio online and other version control platforms for managing distributed versions of your applications. Prevent disruption to your users with seemeless deployment and no more upgrades downtime!</p>
+                    </header>
+                </div>
 				</section>
 
 			<!-- Gigantic Heading -->
