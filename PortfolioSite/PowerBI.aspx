@@ -44,11 +44,10 @@
             <section class="wrapper style2" style="padding-top:2em;">
                 <div class="container">
                     <header>
-                        <h2 style="text-align:center">Interact with Embedded PowerBI reports to get fasters Insights!</h2>
+                        <h2 style="text-align:center">Interact with Embedded PowerBI reports to get Realtime Analytics!</h2>
                         
                     </header>
                     <div id="pbi-report" powerbi-access-token="<%= accessToken.ToString() %>" powerbi-embed-url="https://embedded.powerbi.com/appTokenReportEmbed?reportId=2e52bb57-3aa6-4224-b069-aea9e8414e7a" powerbi-type="report" style="height:85vh"></div>
-                    <h2 style="text-align:center">Using DirectQuery you can leverage realtime analytics such as the demonstration above!</h2>
                 </div>
             </section>
 
@@ -65,14 +64,14 @@
                                 <a href="#" class="image left"><img src="images/bi_power.png" alt="" /></a>
                                 <div class="inner">
                                     <h3>Powering up with PowerBI</h3>
-                                    <p>Looking to get the most out of your data? I can integrate the latest technologies to help your business exploit the value of its data.</p>
+                                    <p>Using the latest of PowerBI you can integrate DirectQuery to generate reporting in realtime. Monitor your opportunities in realtime and exploit the pace of DirectQuery reporting to make decisions quicker than ever before!</p>
                                 </div>
                                 </div>
                         </section>
                         <section class="6u 12u(narrower)">
                             <div class="box">
-                                <h3>Server Side Processing</h3>
-                                <p>With my expertise in SAAS Deployments using Azure for App and SQL Server Deployments, I can build solutions to scale inline with your businesses requirements.</p>
+                                <h3>Reporting for whenever it Matters!</h3>
+                                <p>Customizable reports available for all size of devices. Integrate reportins in O365 Sharepoint, Presentations, SSRS websites and more. Just Ask!</p>
                             </div>
                         </section>
                     </div>
