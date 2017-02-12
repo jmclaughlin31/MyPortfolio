@@ -11,11 +11,11 @@ namespace PortfolioSite
 {
     public partial class PowerBI : System.Web.UI.Page
     {
-        private string workspaceCollection = ConfigurationManager.AppSettings["powerbi:WorkspaceCollection"];
-        private string workspaceId = ConfigurationManager.AppSettings["powerbi:WorkspaceId"];
-        private string reportId = ConfigurationManager.AppSettings["powerbi:ReportID"];
-        private string AccessKey = ConfigurationManager.AppSettings["powerbi:AccessKey"];
-        private string apiUrl = ConfigurationManager.AppSettings["powerbi:ApiUrl"];
+        private readonly string workspaceCollection = ConfigurationManager.AppSettings["powerbi:WorkspaceCollection"];
+        private readonly string workspaceId = ConfigurationManager.AppSettings["powerbi:WorkspaceId"];
+        private readonly string reportId = ConfigurationManager.AppSettings["powerbi:ReportID"];
+        private readonly string AccessKey = ConfigurationManager.AppSettings["powerbi:AccessKey"];
+        private readonly string apiUrl = ConfigurationManager.AppSettings["powerbi:ApiUrl"];
 
         public string accessToken { get; private set; }
 
