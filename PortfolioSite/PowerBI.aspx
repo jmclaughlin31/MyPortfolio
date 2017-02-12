@@ -27,12 +27,10 @@
 					<!-- Nav -->
 						<nav id="nav" class="">
 							<ul>
-								<li><a href="Default.aspx">Home</a></li>
+								<li><a href="Home.aspx">Home</a></li>
 								<li class="current"><a href="PowerBI.aspx">PowerBI</a></li>
-								<li><a href="SSRS.aspx">SQL Server Reporting Services</a></li>
-								<li><a href="Azure.aspx">Azure</a></li>
-								<li><a href="CSharpandDotNet.aspx">C# | .Net Experience</a></li>
-                                <li><a href="Teradata.aspx">Teradata</a></li>
+								<li><a href="DataWarehousing.aspx">Data Warehousing</a></li>
+								<li><a href="AppsAndCloud.aspx">App & Cloud Development</a></li>
                                 <li><a href="Contact.aspx">Contact</a></li>
 							</ul>
 						</nav>

@@ -153,7 +153,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Azure.aspx" />
     <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
     <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" />
     <Content Include="bin\Microsoft.IdentityModel.Clients.ActiveDirectory.dll" />
@@ -218,7 +217,7 @@
     <Content Include="scripts\js\skel.min.js" />
     <Content Include="scripts\js\util.js" />
     <Content Include="scripts\powerbi.css" />
-    <Content Include="CSharpAndDotNet.aspx" />
+    <Content Include="AppsAndCloud.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Default.aspx" />
     <Content Include="Images\banner.jpg" />
@@ -281,21 +280,12 @@
     <Content Include="scripts\fonts\js\util.js" />
     <Content Include="scripts\powerbi.js" />
     <Content Include="scripts\powerbi.min.js" />
-    <Content Include="SSRS.aspx" />
-    <Content Include="Teradata.aspx" />
-    <Content Include="test.aspx" />
+    <Content Include="DataWarehousing.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Azure.aspx.cs">
-      <DependentUpon>Azure.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Azure.aspx.designer.cs">
-      <DependentUpon>Azure.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -303,12 +293,12 @@
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
-    <Compile Include="CSharpAndDotNet.aspx.cs">
-      <DependentUpon>CSharpAndDotNet.aspx</DependentUpon>
+    <Compile Include="AppsAndCloud.aspx.cs">
+      <DependentUpon>AppsAndCloud.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="CSharpAndDotNet.aspx.designer.cs">
-      <DependentUpon>CSharpAndDotNet.aspx</DependentUpon>
+    <Compile Include="AppsAndCloud.aspx.designer.cs">
+      <DependentUpon>AppsAndCloud.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -328,26 +318,12 @@
       <DependentUpon>PowerBI.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SSRS.aspx.cs">
-      <DependentUpon>SSRS.aspx</DependentUpon>
+    <Compile Include="DataWarehousing.aspx.cs">
+      <DependentUpon>DataWarehousing.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="SSRS.aspx.designer.cs">
-      <DependentUpon>SSRS.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Teradata.aspx.cs">
-      <DependentUpon>Teradata.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Teradata.aspx.designer.cs">
-      <DependentUpon>Teradata.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="test.aspx.cs">
-      <DependentUpon>test.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="test.aspx.designer.cs">
-      <DependentUpon>test.aspx</DependentUpon>
+    <Compile Include="DataWarehousing.aspx.designer.cs">
+      <DependentUpon>DataWarehousing.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

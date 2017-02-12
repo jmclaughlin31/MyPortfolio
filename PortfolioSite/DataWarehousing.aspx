@@ -1,16 +1,16 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Teradata.aspx.cs" Inherits="PortfolioSite.Teradata" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="DataWarehousing.aspx.cs" Inherits="PortfolioSite.SSRS" %>
 
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 
 <html>
 	<head runat="server">
 		<title>Data Visualisations by Jody Mc Laughlin</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="scripts/js/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="scripts/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="scripts/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="scripts/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><script src="~/scripts/js/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="~/scripts/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="~/scripts/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="~/scripts/css/ie9.css" /><![endif]-->
 	</head>
 	<body>
         <form runat="server">
@@ -26,12 +26,10 @@
 					<!-- Nav -->
 						<nav id="nav">
 							<ul>
-								<li><a href="Default.aspx">Home</a></li>
+								<li><a href="Home.aspx">Home</a></li>
 								<li><a href="PowerBI.aspx">PowerBI</a></li>
-								<li><a href="SSRS.aspx">SQL Server Reporting Services</a></li>
-								<li><a href="Azure.aspx">Azure</a></li>
-								<li><a href="CSharpandDotNet.aspx">C# | .Net Experience</a></li>
-                                <li class="current"><a href="Teradata.aspx">Teradata</a></li>
+								<li class="current"><a href="DataWarehousing.aspx">Data Warehousing</a></li>
+								<li><a href="AppsAndCloud.aspx">App & Cloud Development</a></li>
                                 <li><a href="Contact.aspx">Contact</a></li>
 							</ul>
 						</nav>
@@ -45,12 +43,11 @@
 				<section class="wrapper style3">
 					<div class="container">
 						<div class="row 200%">
-                            
 							<section class="4u 12u(narrower)">
 								<div class="box highlight">
 									<i class="icon major fa-pie-chart"></i>
-									<h3>Reporting Specialist</h3>
-									<p>Looking to get the most out of your data? I can integrate the latest technologies to help your business exploit the value of its data.</p>
+									<h3>ETL & Migration Support</h3>
+									<p>Experience in migrating data from MySQL, DB2, Access, SQL Server, Oracle and Sysbase using SSIS (SQL Server Integration Services) and SSMA (SQL Server Migration Assistant).</p>
 								</div>
 							</section>
 							<section class="4u 12u(narrower)">
@@ -219,6 +216,6 @@
 			<script src="scripts/js/util.js"></script>
 			<!--[if lte IE 8]><script src="scripts/js/respond.min.js"></script><![endif]-->
 			<script src="scripts/js/main.js"></script>
-        </form>
+            </form>
 	</body>
 </html>

@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs"  Inherits="PortfolioSite.Home" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="PortfolioSite.Home" %>
 
 <!DOCTYPE HTML>
 
@@ -13,159 +13,161 @@
     <!--[if lte IE 9]><link rel="stylesheet" href="~/scripts/css/ie9.css" /><![endif]-->
 </head>
 <body>
-<form runat="server">
-    <div id="page-wrapper"> 
-    
-        <!-- Header -->
-        <div id="header">
+    <form runat="server">
+        <div id="page-wrapper">
 
-            <!-- Logo -->
+            <!-- Header -->
+            <div id="header">
 
-            <h1><a href="Default.aspx" id="logo">Data Visualisations <em>by Jody Mc Laughlin</em></a></h1>
+                <!-- Logo -->
 
-            <!-- Nav -->
-            <nav id="nav">
-                <ul>
-                    <li class="current"><a href="Default.aspx">Home</a></li>
-                    <li><a href="PowerBI.aspx">PowerBI</a></li>
-                    <li><a href="SSRS.aspx">SQL Server Reporting Services</a></li>
-                    <li><a href="Azure.aspx">Azure</a></li>
-                    <li><a href="CSharpandDotNet.aspx">C# | .Net Experience</a></li>
-                    <li><a href="Teradata.aspx">Teradata</a></li>
-                    <li><a href="Contact.aspx">Contact</a></li>
-                </ul>
-            </nav>
+                <h1><a href="Default.aspx" id="logo">Data Visualisations <em>by Jody Mc Laughlin</em></a></h1>
 
-        </div>
+                <!-- Nav -->
+                <nav id="nav">
+                    <ul>
+                        <li class="current"><a href="Home.aspx">Home</a></li>
+                        <li><a href="PowerBI.aspx">PowerBI</a></li>
+                        <li><a href="DataWarehousing.aspx">Data Warehousing</a></li>
+                        <li><a href="AppsAndCloud.aspx">App & Cloud Development</a></li>
+                        <li><a href="Contact.aspx">Contact</a></li>
+                    </ul>
+                </nav>
 
-        <!-- Banner -->
-        <!-- Highlights -->
-        <section class="wrapper style3">
-            <div class="container">
-                <div class="row 200%">
-                    <section class="4u 12u(narrower)">
-                        <div class="box highlight">
-                            <i class="icon major fa-pie-chart"></i>
-                            <h3>Reporting Specialist</h3>
-                            <p>Looking to get the most out of your data? I can integrate the latest technologies to help your business exploit the value of its data.</p>
-                        </div>
-                    </section>
-                    <section class="4u 12u(narrower)">
-                        <div class="box highlight">
-                            <i class="icon major fa-cloud"></i>
-                            <h3>Migrate to the Cloud</h3>
-                            <p>With my expertise in SAAS Deployments using Azure for App and SQL Server Deployments, I can build solutions to scale inline with your businesses requirements.</p>
-                        </div>
-                    </section>
-                    <section class="4u 12u(narrower)">
-                        <div class="box highlight">
-                            <i class="icon major fa-github"></i>
-                            <h3>The Master of Control</h3>
-                            <p>Iterative developments and deployments streamlined! No more disruptions or unnecessary downtime.</p>
-                        </div>
-                    </section>
+            </div>
+
+            <!-- Banner -->
+            <!-- Highlights -->
+            <section class="wrapper style3">
+                <div class="container">
+                    <div class="row 200%">
+                        <section class="4u 12u(narrower)">
+                            <div class="box highlight">
+                                <i class="icon major fa-pie-chart"></i>
+                                <h3>Reporting Specialist</h3>
+                                <p>Looking to get the most out of your data? I can integrate the latest technologies to help your business exploit the value of its data.</p>
+                            </div>
+                        </section>
+                        <section class="4u 12u(narrower)">
+                            <div class="box highlight">
+                                <i class="icon major fa-cloud"></i>
+                                <h3>Migrate to the Cloud</h3>
+                                <p>With my expertise in SAAS Deployments using Azure for App and SQL Server Deployments, I can build solutions to scale inline with your businesses requirements.</p>
+                            </div>
+                        </section>
+                        <section class="4u 12u(narrower)">
+                            <div class="box highlight">
+                                <i class="icon major fa-github"></i>
+                                <h3>The Master of Control</h3>
+                                <p>Iterative developments and deployments streamlined! No more disruptions or unnecessary downtime.</p>
+                            </div>
+                        </section>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <!-- Gigantic Heading -->
-        <section class="wrapper style1">
-            <div class="container">
-                <header class="major">
-                    <h2>Portfolio Samples from Jody Mc Laughlin.</h2>
-                    <p>To find out more you could always drop a mail to: <a href="mailto:jmclaughlin31@qub.ac.uk">jmclaughlin31@qub.ac.uk</a> .</p>
-                </header>
-            </div>
-        </section>
-
-        <!-- CTA -->
-        <section id="cta" class="wrapper style3">
-            <div class="container">
-                <header>
-                    <h2>Request Login Details to Access Portfolio Work?</h2>
-                    <a href="#" class="button">Click Here</a>
-                </header>
-            </div>
-        </section>
-
-        <!-- Posts -->
-        <section class="wrapper style1">
-            <div class="container">
-                <div class="row">
-                    <section class="6u 12u(narrower)">
-                        <div class="box post">
-                            <a href="#" class="image left"><img src="images/pic01.png" alt="" /></a>
-                            <div class="inner">
-                                <h3>Wordpress Projects</h3>
-                                <p>An existing blog website build using Wordpress to publish video tutorials. View here at <a href="http://jodymclaughlin.co.uk">www.jodymclaughlin.co.uk</a></p>
-                            </div>
-                        </div>
-                    </section>
-                    <section class="6u 12u(narrower)">
-                        <div class="box post">
-                            <a href="#" class="image left"><img src="images/pic02.png" alt="" /></a>
-                            <div class="inner">
-                                <h3>PowerBI Dashboards</h3>
-                                <p>Exploring the sales of OEM devices in retail.</p>
-                            </div>
-                        </div>
-                    </section>
+            <!-- Gigantic Heading -->
+            <section class="wrapper style1">
+                <div class="container">
+                    <header class="major">
+                        <h2>Portfolio Samples from Jody Mc Laughlin.</h2>
+                        <p>To find out more you could always drop a mail to: <a href="mailto:jmclaughlin31@qub.ac.uk">jmclaughlin31@qub.ac.uk</a> .</p>
+                    </header>
                 </div>
-                <div class="row">
-                    <section class="6u 12u(narrower)">
-                        <div class="box post">
-                            <a href="#" class="image left"><img src="images/pic03.png" alt="" /></a>
-                            <div class="inner">
-                                <h3>GitHub Projects</h3>
-                                <p>View some project code work online at Github.</p>
-                            </div>
-                        </div>
-                    </section>
-                    <section class="6u 12u(narrower)">
-                        <div class="box post">
-                            <a href="#" class="image left"><img src="images/pic04.png" alt="" /></a>
-                            <div class="inner">
-                                <h3>Connect on LinkedIn</h3>
-                                <p><a href="https://ie.linkedin.com/in/jody-mc-laughlin-67b67959">Connect with me</a> to view the full details of my profile on LinkedIn.</p>
-                            </div>
-                        </div>
-                    </section>
+            </section>
+
+            <!-- CTA -->
+            <section id="cta" class="wrapper style3">
+                <div class="container">
+                    <header>
+                        <h2>Request Login Details to Access Portfolio Work?</h2>
+                        <a href="#" class="button">Click Here</a>
+                    </header>
                 </div>
-            </div>
-        </section>
+            </section>
+
+            <!-- Posts -->
+            <section class="wrapper style1">
+                <div class="container">
+                    <div class="row">
+                        <section class="6u 12u(narrower)">
+                            <div class="box post">
+                                <a href="#" class="image left">
+                                    <img src="images/pic01.png" alt="" /></a>
+                                <div class="inner">
+                                    <h3>Wordpress Projects</h3>
+                                    <p>An existing blog website build using Wordpress to publish video tutorials. View here at <a href="http://jodymclaughlin.co.uk">www.jodymclaughlin.co.uk</a></p>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="6u 12u(narrower)">
+                            <div class="box post">
+                                <a href="#" class="image left">
+                                    <img src="images/pic02.png" alt="" /></a>
+                                <div class="inner">
+                                    <h3>PowerBI Dashboards</h3>
+                                    <p>Exploring the sales of OEM devices in retail.</p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="row">
+                        <section class="6u 12u(narrower)">
+                            <div class="box post">
+                                <a href="#" class="image left">
+                                    <img src="images/pic03.png" alt="" /></a>
+                                <div class="inner">
+                                    <h3>GitHub Projects</h3>
+                                    <p>View some project code work online at Github.</p>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="6u 12u(narrower)">
+                            <div class="box post">
+                                <a href="#" class="image left">
+                                    <img src="images/pic04.png" alt="" /></a>
+                                <div class="inner">
+                                    <h3>Connect on LinkedIn</h3>
+                                    <p><a href="https://ie.linkedin.com/in/jody-mc-laughlin-67b67959">Connect with me</a> to view the full details of my profile on LinkedIn.</p>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </section>
 
 
 
-        <!-- Footer -->
-        <div id="footer">
-            <div class="container">
-                <div class="row">
-                    <section class="3u 6u(narrower) 12u$(mobilep)">
-                        <h3>Links to Stuff</h3>
-                        <ul class="links">
-                            <li><a href="#">Mattis et quis rutrum</a></li>
-                            <li><a href="#">Suspendisse amet varius</a></li>
-                            <li><a href="#">Sed et dapibus quis</a></li>
-                            <li><a href="#">Rutrum accumsan dolor</a></li>
-                            <li><a href="#">Mattis rutrum accumsan</a></li>
-                            <li><a href="#">Suspendisse varius nibh</a></li>
-                            <li><a href="#">Sed et dapibus mattis</a></li>
-                        </ul>
-                    </section>
-                    <section class="3u 6u$(narrower) 12u$(mobilep)">
-                        <h3>More Links to Stuff</h3>
-                        <ul class="links">
-                            <li><a href="#">Duis neque nisi dapibus</a></li>
-                            <li><a href="#">Sed et dapibus quis</a></li>
-                            <li><a href="#">Rutrum accumsan sed</a></li>
-                            <li><a href="#">Mattis et sed accumsan</a></li>
-                            <li><a href="#">Duis neque nisi sed</a></li>
-                            <li><a href="#">Sed et dapibus quis</a></li>
-                            <li><a href="#">Rutrum amet varius</a></li>
-                        </ul>
-                    </section>
-                    <section class="6u 12u(narrower)">
-                        <h3>Get In Touch</h3>
+            <!-- Footer -->
+            <div id="footer">
+                <div class="container">
+                    <div class="row">
+                        <section class="3u 6u(narrower) 12u$(mobilep)">
+                            <h3>Links to Stuff</h3>
+                            <ul class="links">
+                                <li><a href="#">Mattis et quis rutrum</a></li>
+                                <li><a href="#">Suspendisse amet varius</a></li>
+                                <li><a href="#">Sed et dapibus quis</a></li>
+                                <li><a href="#">Rutrum accumsan dolor</a></li>
+                                <li><a href="#">Mattis rutrum accumsan</a></li>
+                                <li><a href="#">Suspendisse varius nibh</a></li>
+                                <li><a href="#">Sed et dapibus mattis</a></li>
+                            </ul>
+                        </section>
+                        <section class="3u 6u$(narrower) 12u$(mobilep)">
+                            <h3>More Links to Stuff</h3>
+                            <ul class="links">
+                                <li><a href="#">Duis neque nisi dapibus</a></li>
+                                <li><a href="#">Sed et dapibus quis</a></li>
+                                <li><a href="#">Rutrum accumsan sed</a></li>
+                                <li><a href="#">Mattis et sed accumsan</a></li>
+                                <li><a href="#">Duis neque nisi sed</a></li>
+                                <li><a href="#">Sed et dapibus quis</a></li>
+                                <li><a href="#">Rutrum amet varius</a></li>
+                            </ul>
+                        </section>
+                        <section class="6u 12u(narrower)">
+                            <h3>Get In Touch</h3>
                             <div class="row 50%">
                                 <div class="6u 12u(mobilep)">
                                     <input type="text" name="name" id="name" placeholder="Name" />
@@ -182,40 +184,41 @@
                             <div class="row 50%">
                                 <div class="12u">
                                     <ul class="actions">
-                                        <li><input type="submit" class="button alt" value="Send Message" /></li>
+                                        <li>
+                                            <input type="submit" class="button alt" value="Send Message" /></li>
                                     </ul>
                                 </div>
                             </div>
-                        
-                    </section>
+
+                        </section>
+                    </div>
                 </div>
-            </div>
 
-            <!-- Icons -->
-            <ul class="icons">
-                <li><a href="https://github.com/jmclaughlin31" class="icon fa-github"><span class="label">GitHub</span></a></li>
-                <li><a href="https://ie.linkedin.com/in/jody-mc-laughlin-67b67959" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-            </ul>
-
-            <!-- Copyright -->
-            <div class="copyright">
-                <ul class="menu">
-                    <li>&copy; Data Visualisations By Jody Mc Laughlin. All rights reserved</li>
-                    <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                <!-- Icons -->
+                <ul class="icons">
+                    <li><a href="https://github.com/jmclaughlin31" class="icon fa-github"><span class="label">GitHub</span></a></li>
+                    <li><a href="https://ie.linkedin.com/in/jody-mc-laughlin-67b67959" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
                 </ul>
+
+                <!-- Copyright -->
+                <div class="copyright">
+                    <ul class="menu">
+                        <li>&copy; Data Visualisations By Jody Mc Laughlin. All rights reserved</li>
+                        <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                    </ul>
+                </div>
+
             </div>
 
         </div>
 
-    </div>
-
-    <!-- Scripts -->
-    <script src="scripts/js/jquery.min.js"></script>
-    <script src="scripts/js/jquery.dropotron.min.js"></script>
-    <script src="scripts/js/skel.min.js"></script>
-    <script src="scripts/js/util.js"></script>
-    <!--[if lte IE 8]><script src="scripts/js/respond.min.js"></script><![endif]-->
-    <script src="scripts/js/main.js"></script>
+        <!-- Scripts -->
+        <script src="scripts/js/jquery.min.js"></script>
+        <script src="scripts/js/jquery.dropotron.min.js"></script>
+        <script src="scripts/js/skel.min.js"></script>
+        <script src="scripts/js/util.js"></script>
+        <!--[if lte IE 8]><script src="scripts/js/respond.min.js"></script><![endif]-->
+        <script src="scripts/js/main.js"></script>
     </form>
 </body>
 </html>

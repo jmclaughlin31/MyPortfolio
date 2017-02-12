@@ -1,6 +1,6 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Azure.aspx.cs" Inherits="PortfolioSite.Azure" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AppsAndCloud.aspx.cs" Inherits="PortfolioSite.CSharpAndDotNet" %>
 
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 
 <html>
 	<head runat="server">
@@ -21,17 +21,15 @@
 
 					<!-- Logo -->
                    
-						<h1><a href="Default.aspx" id="logo">Data Visualisations <em>by Jody Mc Laughlin</em></a></h1>
+						<h1><a href="index.html" id="logo">Data Visualisations <em>by Jody Mc Laughlin</em></a></h1>
 
 					<!-- Nav -->
 						<nav id="nav">
 							<ul>
-								<li><a href="Default.aspx">Home</a></li>
+								<li><a href="Home.aspx">Home</a></li>
 								<li><a href="PowerBI.aspx">PowerBI</a></li>
-								<li><a href="SSRS.aspx">SQL Server Reporting Services</a></li>
-								<li class="current"><a href="Azure.aspx">Azure</a></li>
-								<li><a href="CSharpandDotNet.aspx">C# | .Net Experience</a></li>
-                                <li><a href="Teradata.aspx">Teradata</a></li>
+								<li><a href="DataWarehousing.aspx">Data Warehousing</a></li>
+								<li class="current"><a href="AppsAndCloud.aspx">App & Cloud Development</a></li>
                                 <li><a href="Contact.aspx">Contact</a></li>
 							</ul>
 						</nav>
@@ -84,7 +82,7 @@
             <section id="cta" class="wrapper style3">
                 <div class="container">
                     <header>
-                        <h2>Request Login Details to Access Portfolio Work?</h2>
+                        <h2>Looking to access Jodys Portfolio Work?</h2>
                         <a href="#" class="button">Click Here</a>
                     </header>
                 </div>
