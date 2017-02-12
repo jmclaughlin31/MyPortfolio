@@ -48,7 +48,7 @@
                         <h3 style="text-align:right">ETL Migrations</h3>
                         <p style="text-align:right">SSMA and SSIS for building an integrated data layer and managing rapid transfers of big data.</p>
                         <h3 style="text-align:center">Open Source and Proprietary Source software integrates in Harmony</h3>
-                        <p style="text-align:right">Merge open source technologies (MySQL, PHP, Spark, Hive, Pig) together with Proprietory systems (SSIS, SSRS, SQL Server, Sharepoint) using Azure.</p>
+                        <p style="text-align:center">Merge open source technologies (MySQL, PHP, Spark, Hive, Pig) together with Proprietory systems (SSIS, SSRS, SQL Server, Sharepoint) using Azure.</p>
                     </header>
                 </div>
 				</section>
